@@ -16,6 +16,13 @@
 </dependency>
 
 	<build>
+		
+		<distributionManagement>
+  <repository>
+    <id>Nexus_AjayFeb28</id>
+    <url>http://localhost:8081/nexus/content/repositories/Nexus_AjayFeb28</url>
+  </repository>
+</distributionManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
